@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 
 # Configure Gemini API key securely
-genai.configure(api_key=os.getenv("AIzaSyDm1y_Pjd_SGWoZ0kkyVta8tcsnPjFFCiE"))
+genai.configure(api_key="AIzaSyDm1y_Pjd_SGWoZ0kkyVta8tcsnPjFFCiE")
 
 # Initialize FastAPI app
 app = FastAPI(title="Behavioral Interview AI Agent")
